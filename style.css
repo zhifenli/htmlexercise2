@@ -1,0 +1,37 @@
+body {
+    background-color: #3F401E;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+h1 {
+    font-family: Times, serif;
+    color: #38687b;
+    font-size:  90px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+a:link, a:visited, a:active {
+    color: #38687b;
+    font-weight: bold;
+}
+a:hover {
+    color: #c1d4d9;
+}
+
+.menu ul a {
+    text-decoration: none;
+}
+.menu ul {
+    list-style-type: none;
+}
+.container {
+    background-color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #c1d4d9;
+}
+.footer {
+    background-color: #c1d4d9;
+}
