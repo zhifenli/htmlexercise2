@@ -2,6 +2,35 @@ body {
     background-color: #3F401E;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
+html, body {
+    margin:  0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    margin:  0;
+    padding: 15px;
+}
+p {
+    margin-top: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding-left: 15;
+}
+ol {
+    padding-left: 40px;
+}
+li{
+    margin: 0 10px 0 30px;
+    border: 5px solid orange;
+
+}
 h1 {
     font-family: Times, serif;
     color: #38687b;
@@ -31,7 +60,36 @@ a:hover {
 
 .header {
     background-color: #c1d4d9;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .footer {
     background-color: #c1d4d9;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+.menu {
+    padding-top: 20px;
+    float: left;
+    width: 200px;
+}
+.main{
+    padding-bottom: 20px;
+    margin-left: 220px;
+}
+.main img {
+    padding-left: 15px;
+}
+.menubox {
+    border: 1px solid #999;
+    margin: 0px  ;
+    padding-top: 20px;
+}
+.menubox h3 {
+    margin-bottom: 0px ;
+    padding-bottom: 0px;
+    color: #38687b;
+}
+.menubox p {
+    color: #38687b;
+  }
